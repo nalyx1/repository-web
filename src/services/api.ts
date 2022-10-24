@@ -1,8 +1,7 @@
 import axios from 'axios';
-import apiConfig from '../config/api';
 
 export const api = axios.create({
-    baseURL: apiConfig.url,
+    baseURL: process.env.REACT_APP_API,
 });
 
 export const getRepositories = async (userId: string, query: string) => {
