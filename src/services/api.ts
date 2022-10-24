@@ -15,7 +15,7 @@ export const getRepositories = async (userId: string, query: string) => {
 };
 
 export const getFavoritesRepositories = async (favoritesList: string[] | undefined) => {
-    let url = `users/favorites`;
+    let url = `/users/favorites`;
 
     return api.post(url, { repositoryId: favoritesList });
 };
