@@ -1,7 +1,8 @@
 import axios from 'axios';
+import apiConfig from '../config/api';
 
 export const api = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: apiConfig.url,
 });
 
 export const getRepositories = async (userId: string, query: string) => {
