@@ -17,7 +17,7 @@ const LoginPage = () => {
     return (
         <>
             <Nav />
-            <LoginForm onLogin={handleLogin} />;
+            <LoginForm onLogin={handleLogin} />
         </>
     );
 };
