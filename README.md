@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Repository Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :memo: Descrição
 
-## Available Scripts
+<p>Aplicação para compartilhar repositórios do Github com outros usuários</p>
 
-In the project directory, you can run:
+## :books: Funcionalidades
 
-### `npm start`
+-   <b>Funcionalidade 1</b>: Adicionar, remover e favoritar repositórios;
+-   <b>Funcionalidade 2</b>: Cadastro de usuário;
+-   <b>Funcionalidade 3</b>: Sistema de autenticação feito com JWT;
+-   <b>Funcionalidade 4</b>: State management no front-end feito com Context API e React Hooks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :wrench: Tecnologias utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   React (Context API, React Hooks, React Router)
+-   TypeScript
+-   MongoDB
+-   JWT
 
-### `npm test`
+## :rocket: Rodando o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 
-### `npm run build`
+```
+- Clone o repositório
+git clone https://github.com/nalyx1/repository-web.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Entre no arquivo do projeto
+cd repository-web
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Instale as dependências
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Crie um arquivo .env na raiz do diretório com os seguintes valores:
+REACT_APP_API_URL=<URL_SERVER_SIDE>
 
-### `npm run eject`
+- Inicialize o projeto
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :computer: Server side code:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+O código para o server side está <a href="https://github.com/nalyx1/repository-server" target="_blank">nesse reposotório</a>.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :globe_with_meridians: Rodando na Web:
 
-## Learn More
+<a href="https://repository-web.herokuapp.com/" target="_blank">Clique aqui</a> para ver a versão final do projeto no seu navegador.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ## :soon: Implementação futura
+* O que será implementado na próxima sprint? -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ## :dart: Status do projeto -->
