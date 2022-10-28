@@ -50,8 +50,9 @@ O código para o server side está <a href="https://github.com/nalyx1/repository
 
 ## :exclamation: TO DO:
 
-[] Implementar validadores de email entre outros.
-[] Implementar um mecanismo de busca avançado.
+[ ] Implementar validadores de email entre outros.
+
+[ ] Implementar um mecanismo de busca avançado.
 <!-- ## :soon: Implementação futura
 * O que será implementado na próxima sprint? -->
 
