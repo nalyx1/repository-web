@@ -48,6 +48,10 @@ O código para o server side está <a href="https://github.com/nalyx1/repository
 
 <a href="https://repository-web.herokuapp.com/" target="_blank">Clique aqui</a> para ver a versão final do projeto no seu navegador.
 
+## :exclamation: TO DO:
+
+[] Implementar validadores de email entre outros.
+[] Implementar um mecanismo de busca avançado.
 <!-- ## :soon: Implementação futura
 * O que será implementado na próxima sprint? -->
 
